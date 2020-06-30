@@ -1,0 +1,123 @@
+
+
+.square {
+  background: white;
+  border: 1px solid #999;
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+  line-height: 80px;
+  height: 80px;
+  display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(233, 124, 200);
+    margin: 10px;
+    border: 1px solid  rgb(228, 94, 205);
+    background-image: linear-gradient(bottom, rgb(233, 124, 200) 0%, rgb(228, 94, 205) 100%);
+    background-image: -o-linear-gradient(bottom,rgb(233, 124, 200) 0%, rgb(228, 94, 205) 100%);
+    background-image: -moz-linear-gradient(bottom,rgb(233, 124, 200) 0%, rgb(228, 94, 205) 100%);
+    background-image: -webkit-linear-gradient(bottom,rgb(233, 124, 200) 0%, rgb(228, 94, 205) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(233, 124, 200) 0%, rgb(228, 94, 205) 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(233, 124, 200) ),
+        color-stop(1, rgb(228, 94, 205) )
+    );
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 6px 0px #cd70da, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    -moz-box-shadow: 0px 6px 0px #c958e6, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+    box-shadow: 0px 6px 0px #c235ec, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+ 
+ }
+ .square:active {
+  background-image: linear-gradient(bottom, rgb(222, 104, 233) 0%, rgb(210, 74, 228) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(222, 104, 233) 0%, rgb(210, 74, 228) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(222, 104, 233) 0%, rgb(210, 74, 228) 100%);
+  background-image: -webkit-linear-gradient(bottom,  rgb(222, 104, 233) 0%, rgb(210, 74, 228) 100%);
+  background-image: -ms-linear-gradient(bottom,  rgb(222, 104, 233) 0%, rgb(210, 74, 228) 100%);
+ 
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(204, 88, 142)),
+      color-stop(1, rgb(204, 88, 142))
+  );
+ }
+ 
+ 
+ /* Board */
+
+
+
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+ 
+ }
+ /* Game */
+.game {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  
+ }
+ /* Game Info */
+ul {
+  padding-left: 30px;
+ }
+ .game-info {
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+ }
+ .status {
+  margin-bottom: 10px;
+  
+ }
+ .style-text:hover {
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 30px;
+  color: mediumorchid;
+ 
+ }
+ .game-text{
+   text-align: center;
+  font-size: x-large;
+  font-family: 'Trebuchet MS';
+
+   
+
+ }
+ .game-board{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+text-align: right;
+padding-top: 50px;
+}
+body {
+  background-color: rgb(241, 205, 231);
+  color: rgb(45, 175, 207);
+}
